@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "watch": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,10 +20,12 @@
   },
   "homepage": "https://github.com/fajarhikmal214/tasks-api-with-testing#readme",
   "dependencies": {
+    "body-parser": "^1.19.1",
     "dotenv": "^10.0.0",
     "express": "^4.17.2",
     "joi": "^17.5.0",
-    "utils": "^0.3.1"
+    "utils": "^0.3.1",
+    "winston": "^3.4.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
